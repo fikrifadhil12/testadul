@@ -1,4 +1,4 @@
-
+i
 import java.time.LocalDate;
 import java.util.ArrayList;
 
@@ -14,7 +14,7 @@ public class Driver {
 
         emails.add(new Email(1, "Fikri", "Nama saya Fikri", "Saya dari Bandung", LocalDate.now(), true));
         emails.add(new Email(2, "Adul", "Nama saya Adul", "Saya dari Perwakarta", LocalDate.now(), false));
-        emails.add(new Email(3, "Raput", "Nama saya Raput", "Saya dari Jakarta", LocalDate.now(), true));
+        emails.add(new Email(3, "pecai", "Nama saya Raput", "Saya dari Jakarta", LocalDate.now(), true));
 
         System.out.println("All Emails:");
         emails.forEach((email) -> {
