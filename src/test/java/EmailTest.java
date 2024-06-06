@@ -7,7 +7,7 @@ import org.junit.Test;
 public class EmailTest {
     @Test
     public void testGettersAndSetters() {
-        Email email = new Email(1, "Fikri", "Nama saya Fikri", "Saya dari Bandung", LocalDate.now(), true);
+        Email email = new Email(1, 0, "Nama saya Fikri", "Saya dari Bandung", LocalDate.now(), true);
 
         // Test getters
         assertEquals(1, email.getId());
